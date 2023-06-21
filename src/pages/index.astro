@@ -1,7 +1,9 @@
 ---
 import BaseLayout from '@layouts/base/base-layout.astro';
+import { AvatarComponent } from '../external/components/avatar/avatar.component'
 const pageTitle = "Home Page";
 ---
 <BaseLayout pageTitle={pageTitle}>
+  <div><AvatarComponent imgSrc="https://www.w3schools.com/howto/img_avatar.png"/></div>
   <h2>My awesome blog subtitle</h2>
 </BaseLayout>

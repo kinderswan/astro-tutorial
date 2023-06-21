@@ -3,13 +3,28 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
+    "dev": "astro dev -d -m development",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.6.4"
+    "@analogjs/astro-angular": "^0.2.0-beta.17",
+    "@angular-devkit/build-angular": "^16.0.0",
+    "@angular/animations": "^16.0.0",
+    "@angular/cli": "^16.1.0",
+    "@angular/common": "^16.0.0",
+    "@angular/compiler": "^16.0.0",
+    "@angular/compiler-cli": "^16.0.0",
+    "@angular/core": "^16.0.0",
+    "@angular/language-service": "^16.0.0",
+    "@angular/platform-browser": "^16.0.0",
+    "@angular/platform-browser-dynamic": "^16.0.0",
+    "@angular/platform-server": "^16.0.0",
+    "astro": "2.0.2",
+    "rxjs": "^7.5.6",
+    "tslib": "^2.4.0",
+    "zone.js": "^0.13.0"
   }
 }
